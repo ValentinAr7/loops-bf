@@ -1,15 +1,16 @@
-function mergeStrings(str1, str2){
+let str1 = 'abc111';
+let str2 = '123';
+let mergedStr = '';
 
-    for(let i = 0; i < str1.length; i++){
+for(let i=0; i<str1.length || i<str2.length; i++) {
 
-        console.log(str1[i]);
-
-        for(let j = 0; j < str2.length; j++){
-            console.log(str2[j]);
-            continue;
-        }
+   
+    if(i < str1.length) {
+        mergedStr += str1[i];
     }
-
+    if(i < str2.length) {
+        mergedStr += str2[i];
+    }
 }
 
-mergeStrings('abc', '123')
+console.log(mergedStr); 
