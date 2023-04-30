@@ -4,4 +4,4 @@ const nthNum = (nth) => {
     console.log(`The ${nth}th even number is ${evenNumbers}`);
 }
 
-nthNum(100)
+nthNum(1298734)
